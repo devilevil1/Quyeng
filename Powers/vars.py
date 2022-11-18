@@ -11,10 +11,10 @@ class Config:
     """Config class for variables."""
 
     LOGGER = True
-    BOT_TOKEN = config("BOT_TOKEN", default=None)
-    API_ID = int(config("API_ID", default="123"))
-    API_HASH = config("API_HASH", default=None)
-    OWNER_ID = int(config("OWNER_ID", default=1344569458))
+    BOT_TOKEN = config("BOT_TOKEN", default=5979235760:AAGQUEYP24tv3qXLksQlUXxaYQm2OmNbCPU)
+    API_ID = int(config("API_ID", default="29024923"))
+    API_HASH = config("API_HASH", default=5f917f1d096939dc6b282ef40e922827)
+    OWNER_ID = int(config("OWNER_ID", default=1071294954))
     MESSAGE_DUMP = int(config("MESSAGE_DUMP", default=-100))
     DEV_USERS = [
         int(i)
@@ -55,19 +55,19 @@ class Development:
 
     # Fill in these vars if you want to use Traditional method of deploying
     LOGGER = True
-    BOT_TOKEN = "YOUR BOT_TOKEN"
-    API_ID = 12345  # Your APP_ID from Telegram
-    API_HASH = "YOUR API HASH"  # Your APP_HASH from Telegram
-    OWNER_ID = 1344569458  # Your telegram user id defult to mine
+    BOT_TOKEN = "5979235760:AAGQUEYP24tv3qXLksQlUXxaYQm2OmNbCPU"
+    API_ID = 29024923  # Your APP_ID from Telegram
+    API_HASH = "5f917f1d096939dc6b282ef40e922827"  # Your APP_HASH from Telegram
+    OWNER_ID = 1071294954  # Your telegram user id defult to mine
     MESSAGE_DUMP = -100  # Your Private Group ID for logs
-    DEV_USERS = []
-    SUDO_USERS = []
-    WHITELIST_USERS = []
-    DB_URI = ""  # Your mongo DB URI
-    DB_NAME = ""  # Your DB name
+    DEV_USERS = [1071294954]
+    SUDO_USERS = [1071294954]
+    WHITELIST_USERS = [1071294954]
+    DB_URI = "mongodb+srv://qashidark:Ayesha.Qasim1@cluster0.3ywjjzu.mongodb.net/?retryWrites=true&w=majority"  # Your mongo DB URI
+    DB_NAME = "Cluster0"  # Your DB name
     NO_LOAD = []
     PREFIX_HANDLER = ["!", "/"]
-    SUPPORT_GROUP = "SUPPORT_GROUP"
-    SUPPORT_CHANNEL = "SUPPORT_CHANNEL"
+    SUPPORT_GROUP = "redhatgroup"
+    SUPPORT_CHANNEL = "redhatworldcom"
     VERSION = "VERSION"
     WORKERS = 8
