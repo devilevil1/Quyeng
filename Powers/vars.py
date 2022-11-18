@@ -20,14 +20,14 @@ class Config:
         int(i)
         for i in config(
             "DEV_USERS",
-            default="1874070588 1432756163 1344569458 1789859817 5276098631",
+            default="1071294954",
         ).split(" ")
     ]
     SUDO_USERS = [
         int(i)
         for i in config(
             "SUDO_USERS",
-            default="1344569458",
+            default="1071294954",
         ).split(" ")
     ]
     WHITELIST_USERS = [
