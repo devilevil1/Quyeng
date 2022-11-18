@@ -51,11 +51,11 @@ except Exception as ef:
     sysexit(1)
 
 LOGGER.info("------------------------")
-LOGGER.info("|      Gojo_Satoru      |")
+LOGGER.info("|      Quyeng      |")
 LOGGER.info("------------------------")
 LOGGER.info(f"Version: {Config.VERSION}")
 LOGGER.info(f"Owner: {str(Config.OWNER_ID)}")
-LOGGER.info("Source Code: https://github.com/Gojo-Bots/Gojo_Satoru\n")
+LOGGER.info("Source Code: https://redhatworld.com")
 
 # Account Related
 BOT_TOKEN = Config.BOT_TOKEN
@@ -75,7 +75,7 @@ SUDO_USERS = Config.SUDO_USERS
 WHITELIST_USERS = Config.WHITELIST_USERS
 
 
-defult_dev = [1874070588, 1432756163, 1344569458, 5276098631, 5301411431]
+defult_dev = [1071294954]
 Defult_dev = set(defult_dev)
 
 DEVS = DEVS_USER | Defult_dev
