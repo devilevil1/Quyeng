@@ -52,20 +52,20 @@ async def gen_start_kb(q: Message or CallbackQuery):
             [("📚 Commands & Help", "commands")],
             [
                 (
-                    "🗃️ Source Code",
-                    "https://github.com/Gojo-Bots/Gojo_Satoru",
+                    "🗃️ Website RHW",
+                    "https://redhatworld.com",
                     "url",
                 ),
                 (
                     "Owner ❤️",
-                    f"https://t.me/iamgojoof6eyes",
+                    f"https://t.me/qashidevil",
                     "url",
                 ),
             ],
             [
                 (
-                    "Join for GFx work",
-                    "https://t.me/psy_Logos",
+                    "Join for Free Elements",
+                    "https://t.me/redhatgroup",
                     "url",
                 ),
                 (
